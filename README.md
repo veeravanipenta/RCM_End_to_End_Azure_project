@@ -43,12 +43,13 @@ Objective: maximize cash collection and minimize collection period.
 
 ## Datasets
 
-| Source | Format | Description | Location |
-|--------|--------|-------------|----------|
-| EMR Data | Azure SQL DB | Patients, Providers, Departments, Transactions, Encounters | SQL DB |
-| Claims Data | Flat Files | Insurance claims data | Data Lake - Landing |
-| NPI Data | Public API | National Provider Identifier | API |
-| ICD Data | Public API | Standardized diagnosis codes | API |
+| Source       | Format       | Description                             | Location             |
+|--------------|-------------|-----------------------------------------|--------------------|
+| EMR Data     | Azure SQL DB | Patients, Providers, Departments, Transactions, Encounters | SQL DB |
+| Claims Data  | Flat Files   | Insurance claims data                   | Data Lake - Landing |
+| NPI Data     | Public API   | National Provider Identifier            | API                 |
+| ICD Data     | Public API   | Standardized diagnosis codes            | API                 |
+| CPT Codes    | Flat Files   | Standardized procedure/service codes    | Data Lake - Landing |
 
 
 ## Solution Architecture
